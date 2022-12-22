@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table class="table">
+		<thead>
+			<tr>
+				<th><h1>Site</h1></th>
+				<th><h1>Number</h1></th>
+				<th><h1>Adress</h1></th>
+				<th class="four"><h1>№</h1></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>site</td>
+				<td>site</td>
+				<td>site</td>
+				<td class="four">site</td>
+			</tr>
+
+			<tr>
+				<td>site</td>
+				<td>site</td>
+				<td>site</td>
+				<td class="four">site</td>
+			</tr>
+
+			<tr>
+				<td>site</td>
+				<td>site</td>
+				<td>site</td>
+				<td class="four">site</td>
+			</tr>
+
+			<tr>
+				<td>site</td>
+				<td>site</td>
+				<td>site</td>
+				<td class="four">site</td>
+			</tr>
+
+			<tr>
+				<td>site</td>
+				<td>site</td>
+				<td>site</td>
+				<td class="four">site</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
+
+<style>
+	body{
+		background: black;
+		color: white;
+		font-family: Open Sans, sans-serif;
+		font-weight: 300;
+		line-height: 1.4rem;
+	}
+
+	
+
+.table th h1{
+	color: #E8F3D6;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.table{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: table;
+}
+
+.table tr:nth-child(odd){
+	background: #FB2576;
+}
+
+.table tr:nth-child(even){
+	background: #3F0071;
+}
+
+.table th{
+	background: black;
+}
+
+.table th, .table td{
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+.table h1{
+	font-size: 25px;
+	text-align: left;
+}
+
+.table td:first-child{
+	color: #FAAB78;
+}
+
+.table td{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.table tr:hover{
+	background: #C147E9;
+}
+
+.table td:hover{
+	background: #E5B8F4;
+	color: #68B984;
+	font-weight: bold;
+	box-shadow: #FFE15D -1px 1px, #FFE15D -2px 2px, #FFE15D -3px 3px, #FFE15D -4px 4px, #FFE15D -5px 5px, #FFE15D -6px 6px;
+	transform: translate3D(6px, -6px, 0);
+	transition-duration: 0.4s;
+}
+
+@media (max-width: 800px){
+	.table th:nth-child(4),
+	.table td:nth-child(4){
+		display: none;
+
+	}
+}
+
+</style>
